@@ -1,4 +1,9 @@
-
+address {
+    font-style: normal;
+    line-height: 24.3px;
+    font-size: 18px;
+    font-weight: 400;
+}
 
 .header {
     display: grid;
@@ -56,14 +61,16 @@
 
 }
 
+.lots {
+    margin:  179px 24px 146px 24px;
+}
+
 .lots__heading {
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96px;
-    position: relative;
-    margin-bottom: 27px;
-    margin-left: 64px;
-
+    text-transform: uppercase;
+    margin: 0 127px 27px 40px;
 }
 
 .lots__card-list {
@@ -73,7 +80,7 @@
     list-style: none;
     color: white;
     justify-content: space-between;
-    margin: 0 24px 0 24px;
+    /* margin: 0 24px 0 24px; */
 }
 
 .lots__card-list-item {
@@ -122,9 +129,9 @@
 }
 
 .lots__look-more-link {
-    position: relative;
-    top: 30px;
-    left: 64px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 40px;
     font-weight: 400;
     font-size: 20px;
     line-height: 23.48px;
@@ -156,6 +163,7 @@
 
 .about__logo {
     margin-top: 35px;
+    margin-left: 47px;
     height: 240px;
     width: 240px;
     grid-column: 1 / 2;
@@ -195,13 +203,16 @@
 }
 
 .footer {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    margin: 180px 50px 88px 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 88px 50px;
+    
 }
 
 .footer__links-list {
     list-style: none;
+    text-align: center;
+    
 }
 
 .footer__informational-links {
