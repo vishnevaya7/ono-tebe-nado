@@ -25,13 +25,15 @@ address {
 .header__links-list {
     display: flex;
     gap: 12px;
+    
     list-style: none;
 }
 
 .header__links-list-item {
-    display: flex;
     align-items: center;
-    margin: 0 36px 0 50px;
+    display: flex;
+    
+    /* margin: 0 36px 0 50px; */
 }
 
 .marker {
@@ -181,6 +183,7 @@ address {
     grid-template-rows: 240px auto;
     column-gap: 25px;
     margin: 146px 24px 180px 24px;
+    padding-top: 35px;
     
 }
 
@@ -226,8 +229,9 @@ address {
 
 .footer {
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    margin: 0 50px 88px 50px;
+    margin: 180px 50px 88px 50px;
     
 }
 
