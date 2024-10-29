@@ -36,6 +36,23 @@
     background-position: center;
     height: 757px;
     margin: 96px 0 179px 0;
+}
+
+.cover__title {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 115px;
+    color: white;
+
+}
+
+.cover__description {
+
+}
+
+.bet-button {
+    position: relative;
+
 
 }
 
@@ -128,56 +145,74 @@
     background-image: url(/images/card-lot-03.jpg);
 }
 
-
-
-
-
-
-/* .card-link {
-    display: block;
-    text-decoration: none;
-    height: 100%;
-    width: 100%;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
-    height: 100%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
-
-}
-
-.card_type_book {
-    background-image: url(../images/card-lot-02.jpg);
-}
-
-.card_type_picture {
-    background-image: url(../images/card-lot-03.jpg);
+.about {
+    display: grid;
+    grid-template-columns:334px 1fr;
+    grid-template-rows: 240px auto;
+    column-gap: 25px;
+    margin: 146px 24px 366px 24px;
     
 }
 
-.overlay {
-    display: block;
-    filter: brightness(40%);
+.about__logo {
+    margin-top: 35px;
+    height: 240px;
+    width: 240px;
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    background-color: black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
 }
 
-.card__title, .card__text {
-    position: relative; 
-    z-index: 1; 
+.about__logo-image {
+    background-size: cover;
+    width: 148px;
+    height: 114px;
+
 }
-.card__text {
-    margin: 0; 
-    flex-grow: 1; 
+
+.about__title {
+    align-self:center;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46.96;
+
+}
+
+.about__text {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
     display: flex;
-    align-items: flex-end; 
-    padding-top: 20px; 
-} */ */
+    flex-direction: column;
+    gap: 24px;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin: 180px 50px 88px 50px;
+}
+
+.footer__links-list {
+    list-style: none;
+}
+
+.footer__informational-links {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 240px;
+}
+
+.picture {
+    display: block;
+    width: 48px;
+    height: 48px;
+}
