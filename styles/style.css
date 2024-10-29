@@ -14,7 +14,6 @@ address {
 .header {
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
-    max-width: 1052px;
     height: 105px;
     margin: 92px 24px 96px 24px;
     align-items: center;
@@ -25,7 +24,7 @@ address {
 .header__links-list {
     display: flex;
     gap: 12px;
-    
+    margin: 0 36px 0 50px;
     list-style: none;
 }
 
@@ -55,6 +54,8 @@ address {
 }
 
 .header__logo {
+    width: 129.1px;
+    height: 104.7;
     display: block;
 
 }
