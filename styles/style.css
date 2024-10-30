@@ -55,8 +55,8 @@ address {
 
 .header__logo {
     align-self: center;
-    width: 148px;
-    height: 105px;
+    width: 129.11px;
+    height: 104.65px;
     display: block;
 }
 
@@ -151,12 +151,11 @@ address {
 
 .lots__card-list {
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     column-gap: 25px;
     list-style: none;
     color: white;
     justify-content: space-between;
-    /* margin: 0 24px 0 24px; */
 }
 
 .lots__card-list-item {
@@ -233,7 +232,7 @@ address {
     grid-template-columns:334px 1fr;
     grid-template-rows: 240px auto;
     column-gap: 25px;
-    margin: 146px 24px 180px 24px;
+    margin: 146px 24px 185px 24px;
     padding-top: 35px;
     
 }
@@ -270,6 +269,7 @@ address {
 }
 
 .about__text {
+    padding-top: 5px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
