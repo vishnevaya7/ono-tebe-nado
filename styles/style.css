@@ -24,15 +24,15 @@ address {
 .header__links-list {
     display: flex;
     gap: 12px;
-    margin: 0 36px 0 50px;
+    margin: 0 24px;
     list-style: none;
 }
 
 .header__links-list-item {
+    font-weight: 400;
+    font-size: 18px;
     align-items: center;
     display: flex;
-    
-    /* margin: 0 36px 0 50px; */
 }
 
 .marker {
@@ -54,8 +54,9 @@ address {
 }
 
 .header__logo {
-    width: 129.1px;
-    height: 104.7;
+    align-self: center;
+    width: 148px;
+    height: 105px;
     display: block;
 }
 
@@ -76,7 +77,7 @@ address {
     color: white;
     position: relative;
     padding-top: 165px;
-    margin: 0 50px 135px 50px;
+    margin: 0 50px 147px 50px;
     z-index: 2;
 }
 
@@ -279,20 +280,23 @@ address {
 
 .footer {
     display: flex;
-    align-items: center;
+    align-content: center;
     justify-content: space-between;
     margin: 180px 50px 88px 50px;
     
 }
 
 .footer__links-list {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21.1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
-    
-    
 }
+
+
 
 .footer__informational-links {
     display: flex;
