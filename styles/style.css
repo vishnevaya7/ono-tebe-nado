@@ -19,45 +19,48 @@ address {
     align-items: center;
 }
 
-/* делаю маркер по центру */
-
 .header__links-list {
     display: flex;
-    gap: 12px;
-    margin: 0 24px;
-    list-style: none;
+    margin-left: 12px;
+    font-weight: 400;
+    font-size: 18px;
+    list-style: circle;
+    padding-left: 15px;
+    gap: 31px;
+    letter-spacing: 0.01em;
+    text-underline-offset: 4px;
+    
 }
 
 .header__links-list-item {
-    font-weight: 400;
-    font-size: 18px;
     align-items: center;
-    display: flex;
-}
-
-.marker {
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    border-color: black ;
-    border: 1px solid;
-    border-radius: 50%;
-    margin-right: 12px;
 }
 
 .header__links-list-item_no-bullit {
     list-style: none;
+    letter-spacing: 0;
+    padding: 0;
 }
 
 .header__address {
-    padding: 5px 25.48px 2px 184px;
+    margin-left: 187px;
+    text-underline-offset: 3.5px;
+}
+
+.header__address a {
+    letter-spacing: 0.01em;
 }
 
 .header__logo {
-    align-self: center;
-    width: 129.11px;
-    height: 104.65px;
     display: block;
+    align-self: center;
+}
+
+.header__logo-image {
+    height: 105px;
+    width: 148px;
+    
+    
 }
 
 .cover {
@@ -103,6 +106,13 @@ address {
 
 .no-letter-spacing {
     letter-spacing: 0;
+}
+
+.aligned-text {
+    margin-bottom: 12px;
+}
+.aligned-text_center{
+    margin-bottom: 5px;
 }
 
 .cover__description {
