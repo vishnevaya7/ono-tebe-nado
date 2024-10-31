@@ -123,7 +123,6 @@ address {
     display: flex;
     align-items: center;
     margin-left: 78px;
-    /* gap: 79px; */
     justify-content: space-between;
 }
 
@@ -138,7 +137,7 @@ address {
 }
 
 .cover__description-letter {
-    letter-spacing: -0.02em;
+    word-spacing: 0.8em;
 }
 
 
@@ -174,6 +173,7 @@ address {
 .lots__card-list {
     display: flex;
     flex-wrap: wrap;
+    flex-grow: 1;
     column-gap: 25px;
     list-style: none;
     color: white;
@@ -307,7 +307,7 @@ address {
     text-underline-offset: 3.5px;
 }
 
-.footer__links-list {
+.footer__menu-list {
     font-weight: 400;
     font-size: 18px;
     display: flex;
@@ -319,14 +319,14 @@ address {
 
 
 
-.footer__informational-links {
+.footer__social-list {
     display: flex;
     list-style: none;
     justify-content: space-between;
     width: 240px;
 }
 
-.picture {
+.footer__social-list-item {
     display: block;
     width: 48px;
     height: 48px;
