@@ -5,11 +5,12 @@ address {
     font-weight: 400;
 }
 
-/* .overlay {
+.overlay {
     height: 100%;
     background: #000;
     opacity: 0.6;
-} */
+    /* z-index: 0; */
+}
 
 .header {
     display: grid;
@@ -78,10 +79,10 @@ address {
     font-size: 100px;
     line-height: 115px;
     color: white;
-    position: relative;
+    position: absolute;
     padding-top: 165px;
     margin: 0 50px 128px 50px;
-    z-index: 2;
+    z-index: 1;
 }
 
 
@@ -131,6 +132,7 @@ address {
     line-height: 28px;
     color: white;
     word-spacing: 0.9em;
+    z-index: 1;
 }
 
 .cover__description-letter {
@@ -144,6 +146,7 @@ address {
    height: 51px;
    border: 1px solid white;
    background-color: transparent;
+   z-index: 1;
 }
 
 #text_button {
@@ -163,7 +166,7 @@ address {
     font-size: 40px;
     line-height: 46.96px;
     text-transform: uppercase;
-    margin: 0 127px 27px 40px;
+    margin: 0 0 27px 40px;
 }
 
 .lots__card-list {
@@ -204,10 +207,9 @@ address {
     margin: 0 40px;
     font-weight: 700;
     font-size: 22px;
-    line-height: 26.4px;
     text-transform: uppercase;
     text-decoration: underline;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .card__text {
@@ -226,11 +228,9 @@ address {
     margin-left: 40px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23.48px;
+    text-underline-offset: 5px;
+    
 }
-
-
-
 
 .card_type_film {
     background-image: url(../images/card-lot-01.jpg);
@@ -249,7 +249,7 @@ address {
     grid-template-columns:334px 1fr;
     grid-template-rows: 240px auto;
     column-gap: 25px;
-    margin: 146px 24px 185px 24px;
+    margin: 146px 24px 179px 24px;
     padding-top: 35px;
     
 }
@@ -270,8 +270,7 @@ address {
 
 .about__logo-image {
     background-size: cover;
-    width: 148px;
-    height: 114px;
+    height: 115px;
 
 }
 
@@ -279,14 +278,17 @@ address {
     align-self:center;
     text-transform: uppercase;
     color: black;
+    margin-top: 11px;
     font-weight: 700;
     font-size: 40px;
     line-height: 46.96;
 
 }
 
+/* я бы добавила letter-spacing, но в этой секции с параграфами он разный */
+
 .about__text {
-    padding-top: 5px;
+    padding-top: 11px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
@@ -299,18 +301,18 @@ address {
     display: flex;
     align-content: center;
     justify-content: space-between;
-    margin: 180px 50px 88px 50px;
-    
+    margin: 0 50px 88px 50px;
+    text-underline-offset: 3.5px;
 }
 
 .footer__links-list {
     font-weight: 400;
     font-size: 18px;
-    line-height: 21.1px;
     display: flex;
     flex-direction: column;
     align-items: center;
     list-style: none;
+    margin-left: 40px;
 }
 
 
