@@ -87,17 +87,17 @@ address {
     z-index: 2;
 }
 
-
 .aligned-text {
     display: block;
     text-transform: uppercase;
     letter-spacing: 0.3em;
+    margin-bottom: 12px;
 }
 
 .aligned-text_center {
-    text-align: center;   
+    text-align: center; 
 }
-
+      
 .aligned-text_right {
     text-align: right;
     letter-spacing: 0.3em;
@@ -112,10 +112,7 @@ address {
     letter-spacing: 0;
 }
 
-.aligned-text {
-    margin-bottom: 12px;
-}
-.aligned-text_center{
+.aligned-text_center {
     margin-bottom: 5px;
 }
 
@@ -140,7 +137,6 @@ address {
     word-spacing: 0.8em;
 }
 
-
 .bet-button {
    margin-right: 50px;
    width: 256px; 
@@ -159,7 +155,7 @@ address {
 }
 
 .lots {
-    margin:  179px 24px 146px 24px;
+    margin: 179px 24px 146px 24px;
 }
 
 .lots__heading {
