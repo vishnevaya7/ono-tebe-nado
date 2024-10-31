@@ -93,6 +93,7 @@ address {
 
 .aligned-text_center {
     text-align: center;
+    margin-bottom: 5px;
 }
 
 .aligned-text_right {
@@ -107,10 +108,6 @@ address {
 
 .no-letter-spacing {
     letter-spacing: 0;
-}
-
-.aligned-text_center {
-    margin-bottom: 5px;
 }
 
 .cover__description {
