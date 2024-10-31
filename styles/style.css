@@ -80,9 +80,10 @@ address {
     color: white;
     position: relative;
     padding-top: 165px;
-    margin: 0 50px 147px 50px;
+    margin: 0 50px 128px 50px;
     z-index: 2;
 }
+
 
 .aligned-text {
     display: block;
@@ -119,7 +120,8 @@ address {
     display: flex;
     align-items: center;
     margin-left: 78px;
-    gap: 79px;
+    /* gap: 79px; */
+    justify-content: space-between;
 }
 
 .cover__description-text {
@@ -131,8 +133,13 @@ address {
     word-spacing: 0.9em;
 }
 
+.cover__description-letter {
+    letter-spacing: -0.02em;
+}
+
 
 .bet-button {
+   margin-right: 50px;
    width: 256px; 
    height: 51px;
    border: 1px solid white;
