@@ -192,25 +192,23 @@ address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
 }
 
 .card__title {
-    position: relative;
-    top: 51px;
-    margin: 0 40px;
+    margin: 51px 40px auto 40px;
     font-weight: 700;
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
+    z-index: 2;
 }
 
 .card__text {
-    z-index: 1;
     margin: 0 40px 48px 40px;
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
+    z-index: 2;
 }
 
 .lots__look-more-link {
