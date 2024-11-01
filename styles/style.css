@@ -200,7 +200,7 @@ address {
     font-size: 22px;
     text-transform: uppercase;
     text-decoration: underline;
-    z-index: 2;
+    z-index: 1;
 }
 
 .card__text {
@@ -208,7 +208,7 @@ address {
     font-weight: 400;
     font-size: 20px;
     line-height: 24px;
-    z-index: 2;
+    z-index: 1;
 }
 
 .lots__look-more-link {
